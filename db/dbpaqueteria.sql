@@ -1,5 +1,6 @@
 CREATE DATABASE paqueteria
 
+USE paqueteria
 
 CREATE TABLE usuarios (
     id INT AUTO_INCREMENT PRIMARY KEY,
