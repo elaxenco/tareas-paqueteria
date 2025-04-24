@@ -1,5 +1,5 @@
 # tareas-paqueteria
-
+## Este proyecto se creo con la version https://api.github.com/repos/bcit-ci/CodeIgniter/zipball/3.1.11  codeigniter
 ## 📋 Requisitos
 
 - PHP Version 7.4.33 o superior
