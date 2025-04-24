@@ -20,7 +20,7 @@
 
     <IfModule mod_rewrite.c>
         RewriteEngine On
-        RewriteBase /paqueteria/ <-----cambia por el nombre del proyecto que utilices
+        RewriteBase /tareas-paqueteria/ <-----cambia por el nombre del proyecto que utilices
         RewriteCond %{REQUEST_FILENAME} !-f
         RewriteCond %{REQUEST_FILENAME} !-d
         RewriteRule ^(.*)$ index.php/$1 [L]
@@ -28,7 +28,7 @@
 
     -En application/config/config.php:
 
-    $config['base_url'] = 'http://localhost/paqueteria/'; <-----cambia por el nombre del proyecto que utilices
+    $config['base_url'] = 'http://localhost/tareas-paqueteria/'; <-----cambia por el nombre del proyecto que utilices
     $config['index_page'] = '';
 
-5. Después de instalar, accede desde: http://localhost/paqueteria/ <-----cambia por el nombre del proyecto que utilices
+5. Después de instalar, accede desde: http://localhost/tareas-paqueteria/ <-----cambia por el nombre del proyecto que utilices
